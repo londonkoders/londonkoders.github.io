@@ -45,4 +45,4 @@ and Testable Code by [Heath](https://github.com/heathryu)
     - ??? by [Heath](https://github.com/heathryu)
 - 10/11/2020
     - ??? by [Jihyun](https://github.com/jihyun-um)
-    - ??? by [Taeim](https://github.com/kwontaeim)
+    - OSI 7 by [Taeim](https://github.com/kwontaeim)
