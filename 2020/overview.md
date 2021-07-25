@@ -36,7 +36,7 @@ nav_order: 2
 - 07/26/2020
     - Functional Programming
 and Testable Code by [Heath](https://github.com/heathryu)
-    - ??? by [Jung](https://github.com/junglee1101)
+    - Network by [Jung](https://github.com/junglee1101)
 - 08/09/2020
     - Content Security Policy by [Taeim](https://github.com/kwontaeim)
     - Mac and IP Addresses by [Jihyun](https://github.com/jihyun-um)
@@ -46,3 +46,7 @@ and Testable Code by [Heath](https://github.com/heathryu)
 - 10/11/2020
     - ??? by [Jihyun](https://github.com/jihyun-um)
     - OSI 7 by [Taeim](https://github.com/kwontaeim)
+- 11/08/2020
+    - Introduction to Database by [Jung](https://github.com/junglee1101)
+    - ??? by [Heath](https://github.com/heathryu)
+   
