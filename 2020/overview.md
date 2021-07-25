@@ -23,16 +23,15 @@ nav_order: 2
     - TypeScript Part I by [Jung](https://github.com/junglee1101)
 - 05/10/2020
     - Asynchronous Programming in JavaScript by [Heath](https://github.com/heathryu)
-    - TypeScript Part II by [Jihyun](https://github.com/jihyun-um)
 - 05/23/2020
     - HTTPS by [Taeim](https://github.com/kwontaeim)
-    - ??? by [Jung](https://github.com/junglee1101)
+    - TypeScript Part II by [Jihyun](https://github.com/jihyun-um)
 - 06/27/2020
     - Webpack & Babel by [Jung](https://github.com/junglee1101)
-    - ??? by [Heath](https://github.com/heathryu)
+    - TypeScript Part III by [Heath](https://github.com/heathryu)
 - 07/11/2020
     - FlexBox by [Jihyun](https://github.com/jihyun-um)
-    - ??? by [Taeim](https://github.com/kwontaeim)
+    - TypeScript Part IV by [Taeim](https://github.com/kwontaeim)
 - 07/26/2020
     - Functional Programming
 and Testable Code by [Heath](https://github.com/heathryu)
@@ -44,9 +43,9 @@ and Testable Code by [Heath](https://github.com/heathryu)
     - CSS Display by [Jung](https://github.com/junglee1101)
     - ??? by [Heath](https://github.com/heathryu)
 - 10/11/2020
-    - ??? by [Jihyun](https://github.com/jihyun-um)
+    - CSS Animation by [Jihyun](https://github.com/jihyun-um)
     - OSI 7 by [Taeim](https://github.com/kwontaeim)
 - 11/08/2020
     - Introduction to Database by [Jung](https://github.com/junglee1101)
-    - ??? by [Heath](https://github.com/heathryu)
+    - React HOC & Render Props by [Heath](https://github.com/heathryu)
    
