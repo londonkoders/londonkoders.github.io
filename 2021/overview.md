@@ -18,10 +18,10 @@ has_toc: false
     - Web Accessibility by [Jihyun](https://github.com/jihyun-um)
     - Docker Part I by [Taeim](https://github.com/kwontaeim)
 - 04/11/2021
-    - ??? by [Heath](https://github.com/heathryu)
+    - Github action workflow by [Heath](https://github.com/heathryu)
     - Docker Part II by [Jung](https://github.com/junglee1101)
 - 05/03/2021
-    - ??? by [Taeim](https://github.com/kwontaeim)
+    - Machine Learning by [Taeim](https://github.com/kwontaeim)
     - Kubernetes Basics by [Jihyun](https://github.com/jihyun-um)
 - 06/13/2021
     - Airbnb Migration Case Study by [Jihyun](https://github.com/jihyun-um)
