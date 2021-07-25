@@ -36,13 +36,13 @@ nav_order: 2
 - 07/26/2020
     - Functional Programming
 and Testable Code by [Heath](https://github.com/heathryu)
-    - Network by [Jung](https://github.com/junglee1101)
+    - Networking by [Jung](https://github.com/junglee1101)
 - 08/09/2020
     - Content Security Policy by [Taeim](https://github.com/kwontaeim)
     - Mac and IP Addresses by [Jihyun](https://github.com/jihyun-um)
 - 08/23/2020
     - CSS Box Models, Display and Positions by [Jung](https://github.com/junglee1101)
-    - ??? by [Heath](https://github.com/heathryu)
+    - Networking - Transport Layer &bOverview by [Heath](https://github.com/heathryu)
 - 10/11/2020
     - ??? by [Jihyun](https://github.com/jihyun-um)
     - OSI 7 by [Taeim](https://github.com/kwontaeim)
