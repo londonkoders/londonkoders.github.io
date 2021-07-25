@@ -41,7 +41,7 @@ and Testable Code by [Heath](https://github.com/heathryu)
     - Content Security Policy by [Taeim](https://github.com/kwontaeim)
     - Mac and IP Addresses by [Jihyun](https://github.com/jihyun-um)
 - 08/23/2020
-    - CSS Display by [Jung](https://github.com/junglee1101)
+    - CSS Box Models, Display and Positions by [Jung](https://github.com/junglee1101)
     - ??? by [Heath](https://github.com/heathryu)
 - 10/11/2020
     - ??? by [Jihyun](https://github.com/jihyun-um)
