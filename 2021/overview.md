@@ -30,5 +30,5 @@ has_toc: false
     - Instagram Architecture Case Study by [Jung](https://github.com/junglee1101)
     - Uber Architecture Case Study by [Taeim](https://github.com/kwontaeim)
 - 07/25/2021
-    - [Google Search Case Study](case_study/google_search.md) by [Jihyun](https://github.com/jihyun-um)
+    - [Google Search Case Study](case-study/google-search.md) by [Jihyun](https://github.com/jihyun-um)
     - Kwitter Project Planning
