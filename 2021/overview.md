@@ -32,3 +32,6 @@ has_toc: false
 - 07/25/2021
     - [Google Search Case Study](case-study/google-search.md) by [Jihyun](https://github.com/jihyun-um)
     - Kwitter Project Planning
+- 08/14/2021
+    - Tinder Architecture Case Study by [Taeim](https://github.com/kwontaeim)
+    - Kwitter Project Setup & Implementation
