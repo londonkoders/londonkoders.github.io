@@ -3,3 +3,5 @@ remote_theme: pmarsceill/just-the-docs
 title: London Koders
 url: "https://londonkoders.github.io"
 permalink: pretty
+
+logo: "/assets/london-koders-logo.png"
