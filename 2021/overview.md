@@ -47,3 +47,11 @@ has_toc: false
 ### 09/05/2021
 - Spotify Home Architecture Case Study by [Jung](https://github.com/junglee1101)
 - Kwitter Project Implementation
+
+### 10/02/2021
+- CAP Theorem and SQL/NoSQL by [Heath](https://github.com/heathryu)
+- Kwitter Project Implementation
+
+### 10/31/2021
+- Amazon Recommeder System Case Study by [Jihyun](https://github.com/jihyun-um)
+- Kwitter Project Implementation
