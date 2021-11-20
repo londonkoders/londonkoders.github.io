@@ -49,9 +49,13 @@ has_toc: false
 - Kwitter Project Implementation
 
 ### 10/02/2021
-- CAP Theorem and SQL/NoSQL by [Heath](https://github.com/heathryu)
+- Distributed Data Store - SQL and NoSQL by [Heath](https://github.com/heathryu)
 - Kwitter Project Implementation
 
 ### 10/31/2021
 - Amazon Recommeder System Case Study by [Jihyun](https://github.com/jihyun-um)
+- Kwitter Project Implementation
+
+### 11/20/2021
+- Evolution of Reddit's Architecture Case Study by [Taeim](https://github.com/kwontaeim)
 - Kwitter Project Implementation
