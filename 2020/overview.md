@@ -56,7 +56,7 @@ and Testable Code by [Heath](https://github.com/heathryu)
 
 ### 10/11/2020
 - CSS Animation by [Jihyun](https://github.com/jihyun-um)
-- OSI 7 by [Taeim](https://github.com/kwontaeim)
+- [OSI 7](OSI7.md) by [Taeim](https://github.com/kwontaeim)
 
 ### 11/08/2020
 - Introduction to Database by [Jung](https://github.com/junglee1101)
