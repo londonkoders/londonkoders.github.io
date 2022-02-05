@@ -1,5 +1,5 @@
+## Section 1 Application Layer Protocols
 ## Topic 1.1:  Application, Presentation, and Session
-
 
 ### Application Layer
 ![image](https://user-images.githubusercontent.com/21251967/152638314-9c4f25ad-7bed-46be-8570-b1ae37d398d3.png)
@@ -65,8 +65,51 @@
 - This technology is called BitTorrent.
 - There are many BitTorrent clients, including  BitTorrent, uTorrent, Frostwire, and qBittorrent.
 
+## Section 2 Well-Known Application Layer Protocols and Services
+## Topic 2.1: Web and Email Protocols
 
+### Hypertext Transfer Protocol and Hypertext Markup Language
+![image](https://user-images.githubusercontent.com/21251967/152639592-b6a52301-b392-4a86-b91c-8f87c55dead5.png)
+- A URL allows a web browser to establish a connection to that web server.
+- URLs and Uniform Resource Identifier (URIs) are the names most people associate with web addresses.
+- The URL http://cisco.com/index.html has three basic parts:
+  - http (the protocol or scheme)
+  - www.google.com (the server name)
+  - index.html (the specific filename requested)
+- Using DNS, the server name portion of the URL is then translated to the associated IP address before the server can be contacted.
+![image](https://user-images.githubusercontent.com/21251967/152639633-eb99fd72-3b25-4a77-b215-65f9f7f590a8.png)
+- The browser sends a GET request to the server’s IP address and asks for the index.html file.
+- The server sends the requested file to the client.
+- The index.html was specified in the URL and contains the HTML code for this web page.
+- The browser processes the HTML code and formats the page for the browser window based on the code in the file.
+![image](https://user-images.githubusercontent.com/21251967/152639642-40a9dc03-954f-4b9a-9226-fb092a79e96c.png)
 
+### HTTP and HTTPS
+![image](https://user-images.githubusercontent.com/21251967/152639654-42ae914f-3e53-483f-9b72-749da35089b5.png)
 
+- HTTP 
+  - Is a request/response protocol.
+  - Has three common message types: GET, POST, PUT.
+  - Is not secure. Messages can be intercepted.
+- HTTPS uses authentication and encryption to secure data.
 
+### Email Protocols
+![image](https://user-images.githubusercontent.com/21251967/152639712-c3f7f4cb-8c62-4626-a460-0afe70f0f456.png)
+- Email is a store-and-forward method of sending, storing, and retrieving electronic messages.
+- Email messages are stored in databases on mail servers.
+- Email clients communicate with mail servers to send and receive email.
+- Mail servers communicate with other mail servers to transport messages from one domain to another.
+- Email clients do not communicate directly when sending email.
+- Email relies on three separate protocols for operation: SMTP (sending),POP (retrieving), IMAP (retrieving).
 
+## Topic 2.2: IP Addressing
+### Domain Name Service
+![image](https://user-images.githubusercontent.com/21251967/152639757-d2995b45-50f1-47d7-9381-1f909016ab4f.png)
+![image](https://user-images.githubusercontent.com/21251967/152639762-f3455aaa-8e19-4bc2-9455-714c72ee4150.png)
+
+- While IP addresses are crucial for network communication, they are not easy to memorize.
+- Domain names are created to make server addresses more user-friendly.
+- The DNS protocol allows for the dynamic translation of a domain name into the correct IP address.
+- The DNS protocol communications using a single format called a message.
+- Domain names such as http://www.google.com are user-friendly addresses associated with the IP address of a specific server.
+- However, computers still need the actual numeric address before they can communicate.
