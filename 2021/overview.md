@@ -29,7 +29,7 @@ has_toc: false
 - Kubernetes Basics by [Jihyun](https://github.com/jihyun-um)
 
 ### 06/13/2021
-- Airbnb Migration Case Study by [Jihyun](https://github.com/jihyun-um)
+- [Airbnb Migration Case Study](case-study/airbnb/airbnb-migration.md) by [Jihyun](https://github.com/jihyun-um)
 - Twitter Architecture Case Study by [Heath](https://github.com/heathryu)
 
 ### 07/03/2021
