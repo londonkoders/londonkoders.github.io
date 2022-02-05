@@ -1,3 +1,10 @@
+---
+layout: default
+title: OSI 7
+parent: 2020
+nav_order: 10
+---
+
 ## Section 1 Application Layer Protocols
 ## Topic 1.1:  Application, Presentation, and Session
 
