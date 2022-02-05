@@ -42,7 +42,28 @@
 - The contents of the data exchange will depend of the application in use.
 - Email is an example of a  Client-Server interaction.
 
+### Peer-to-Peer Networks
+![image](https://user-images.githubusercontent.com/21251967/152639340-43e14a9c-de2b-48af-9230-2ea93f0f0b38.png)
+- In the peer-to-peer (P2P) networking model, the data is accessed without the use of a dedicated server.
+- Two or more computers can be connected to a P2P network to share resources.
+- Every connected end device (a peer) can function as both a server and a client.
+- The roles of client and server are set on a per request basis.
 
+### Peer-to-Peer Applications
+![image](https://user-images.githubusercontent.com/21251967/152639366-f679a549-d3d2-42f5-bfdb-48774654bdac.png)
+- Some P2P applications use a hybrid system.
+- In hybrid P2P, resource sharing is decentralized.
+- Indexes that point to resource locations are stored in a centralized directory.
+- In a hybrid system, each peer accesses an index server to get the location of a resource stored on another peer.
+
+### Common P2P Applications
+![image](https://user-images.githubusercontent.com/21251967/152639410-3a4072dc-4361-4fec-b8a2-657e67d082e9.png)
+- Common P2P networks include: eDonkey, G2, BitTorrent, Bitcoin.
+- Many P2P applications allow users to share pieces of many files with each other at the same time.
+- A small torrent file contains information about the location of other users and tracker computers.
+- Trackers are computers keeping track of the files hosted by users.
+- This technology is called BitTorrent.
+- There are many BitTorrent clients, including  BitTorrent, uTorrent, Frostwire, and qBittorrent.
 
 
 
