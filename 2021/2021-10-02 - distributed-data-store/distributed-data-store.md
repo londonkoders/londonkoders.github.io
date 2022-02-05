@@ -20,7 +20,7 @@ nav_order: 20
 
 ### What really is NoSQL?
 
-Technically, it means any database systems that are *not* SQL database - therefore they include many differnet types of database system: 
+Technically, it means any database systems that are *not* SQL database - therefore they include many different types of database system: 
 - Key Value DB
 - Document DB
 - Columnar DB
@@ -33,12 +33,12 @@ In practice, NoSQL is typically used to refer to database systems that handle da
 
 > "**Distributed System** - *A system whose components are located on different networked computers*” - Wikipedia
 
-Distributed system is commonplace nowadays, accelerated in the recent few decades with the rise of the internet and ubiquity of devices that are capaable of connecting to the internet. A system consisting of a single server is generally not able to provide fault tolerance or sufficient computing power to run the workload of typical applications in the modern days.
+Distributed system is commonplace nowadays, accelerated in the recent few decades with the rise of the internet and ubiquity of devices that are capable of connecting to the internet. A system consisting of a single server is generally not able to provide fault tolerance or sufficient computing power to run the workload of typical applications in the modern days.
 
 
-> "**Distributed Data Store** - Computer network where information is stored on more than one node, often in a replicated fashion” - Wikipedia
+> "**Distributed Data Store** - *Computer network where information is stored on more than one node, often in a replicated fashion*” - Wikipedia
 
-DtatBeing inherently stateful, Distributed data store poses a unique challenge and trade-offs in how it will handle network partition failure, summarised as the CAP theorem.
+Being inherently stateful, Distributed data store poses a unique challenge and trade-offs in how it will handle network partition failure, summarised as the CAP theorem.
 
 ### The CAP Theorem
 
