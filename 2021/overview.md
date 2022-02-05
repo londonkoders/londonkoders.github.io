@@ -37,7 +37,7 @@ has_toc: false
 - Uber Architecture Case Study by [Taeim](https://github.com/kwontaeim)
 
 ### 07/25/2021
-- [Google Search Case Study](case-study/google-search.md) by [Jihyun](https://github.com/jihyun-um)
+- [Google Search Case Study](case-study/google/google-search.md) by [Jihyun](https://github.com/jihyun-um)
 - Kwitter Project Planning
 
 ### 08/14/2021
