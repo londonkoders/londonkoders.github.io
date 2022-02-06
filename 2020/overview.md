@@ -36,7 +36,7 @@ has_toc: false
 - TypeScript Part II by [Jihyun](https://github.com/jihyun-um)
 
 ### 06/27/2020
-- Webpack & Babel by [Jung](https://github.com/junglee1101)
+- [Webpack](Webpack/webpack.md) & [Babel](Babel/babel.md) by [Jung](https://github.com/junglee1101)
 - TypeScript Part III by [Heath](https://github.com/heathryu)
 
 ### 07/11/2020
