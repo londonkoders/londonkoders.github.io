@@ -32,11 +32,11 @@ This process is known as **source-to-source compiling**, also known as **transpi
 
 ![Babel 3 stages](Babel_stages.png)(src:[Imran Sayed's blog](https://imranhsayed.medium.com/introduction-to-babel-28da5af7e056))
 
-- Babel is built on a plugin system that parses JS code into an [AST(Abstravt Syntax Tree)](https://en.wikipedia.org/wiki/Abstract_syntax_tree) and rewrites into a version that can be interpreted by the browser. 
+- Babel is built on a plugin system that parses JS code into an [AST(Abstract Syntax Tree)](https://en.wikipedia.org/wiki/Abstract_syntax_tree) and rewrites into a version that can be interpreted by the browser. 
 
-- There are 3 primary stages of Babel which are **parse, transform, generate.**
+- There are 3 primary stages of Babel which are **parse, transform and generate.**
 
-1. **Parse**
+**Parse**
 
 There are two phases of parsing in Babel: **Lexical Analysis** and **Syntatic Analysis**. 
 
@@ -46,11 +46,11 @@ It will take code and turn it into a stream of tokens. you can think of token as
 - **Syntactic Analysis** 
 It will take a stream of tokens and turn it into an AST representation. Using the information in the tokens, this phases will reformat them as an AST which represents the structure of the code in a way that make it easier to work with. 
 
-2. **Transform**
+**Transform**
 
 The Transform stage takes an AST and traverses through it, adding, updating, and removing nodes as it goes along. This is where plugins operate. 
 
-3. **Generate** 
+**Generate**
 
 The generation stage takes the final AST and turn it back into a string of code, also creating source maps. 
 
@@ -61,7 +61,7 @@ The generation stage takes the final AST and turn it back into a string of code,
     - `@babel/preset-react` for **React**
     - `@babel/preset-flow` for **Flow**
 
-- Presets can take options in the configuration files. There are two types of config files which are as follow;
+- Presets can take options in the configuration files. There are two types of config files which are as follow
 
     - babel.config.js (Project-wide configuration) 
     - .babelrc (File-relative configuration)
@@ -69,12 +69,13 @@ The generation stage takes the final AST and turn it back into a string of code,
 
 ### .babelrc
 
-In .babelrc configuration file, you can specify 
+In .babelrc configuration file, you can specify the following 
+
 - Plugins and presets 
 - Which files to ignore 
 - Different settings for different targets 
 
-In configuration file, module can be set to false which let the modules to be handled by webpack. Babel then only include the code for a function that are used from the node_modules and the rest will be taken care by Webpack. This is called **tree shaking** or **live code inclusion** 
+In configuration file, module can be set to false which let the modules to be handled by webpack. Babel then only include the code for a function that are used from the node_modules and the rest will be taken care by Webpack. This is called **tree shaking** or **live code inclusion**. 
 
 ### Polyfill
 
