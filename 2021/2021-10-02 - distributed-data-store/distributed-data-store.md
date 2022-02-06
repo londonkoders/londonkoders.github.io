@@ -7,7 +7,7 @@ nav_order: 20
 
 # Distributed Data store, SQL and NoSQL
 {: .no_toc }
-
+Presented on 2nd Oct 2021 by [Heath](https://github.com/heathryu)
 
 ## Table of contents
 {: .no_toc .text-delta }

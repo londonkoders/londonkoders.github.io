@@ -7,7 +7,7 @@ nav_order: 10
 
 # How Google Search Works
 {: .no_toc }
-Presented on 7/25/2021 by [Jihyun](https://github.com/jihyun-um)
+Presented on 25th July 2021 by [Jihyun](https://github.com/jihyun-um)
 
 ## Table of contents
 {: .no_toc .text-delta }
