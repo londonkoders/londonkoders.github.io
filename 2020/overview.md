@@ -26,7 +26,7 @@ has_toc: false
 
 ### 04/26/2020
 - Chrome Developer Tools by [Jihyun](https://github.com/jihyun-um)
-- TypeScript Part I by [Jung](https://github.com/junglee1101)
+- [TypeScript Part I](Typescript/one/typescript-intro.md) by [Jung](https://github.com/junglee1101)
 
 ### 05/10/2020
 - Asynchronous Programming in JavaScript by [Heath](https://github.com/heathryu)
