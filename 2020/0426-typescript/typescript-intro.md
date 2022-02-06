@@ -10,17 +10,17 @@ nav_order: 10
 
 Presented on 26/04/2021 by [Jung](https://github.com/junglee1101)
 ## Table of contents
-----
 {: .no_toc .text-delta }
 
 1. TOC
 {:toc}
 
-
 ## Why TypeScript?
 ----
+### TypeScript 
 
 ![](Anders_Hejlsberg.jpeg)
+
 (source:[twitter](https://mobile.twitter.com/ahejlsberg))
 
 **Anders Hejlsberg**, author of Turbo Pascal and lead architect of C# at Microsoft, gave a tech talk on Typescript at [TSConf 2019 keynote](https://www.youtube.com/watch?v=jmPZztKIFf4). Typescript is a strict superset of Javascript that adds optional static typing and object-oriented constructs.
@@ -48,43 +48,43 @@ For example, if you declare a variable `var x = 1;`, the type of the variable `x
 
 
 
-## TypeScript Pros and Cons
+## Pros and Cons
 ----
 
 ### Pros 
 
-1. **Optional static typing** 
+- **Optional static typing** 
 
 TypeScript introduces optional strong static typing. Once declared, a variable doesn’t change its type and can take only certain values. The compiler alerts developers to type-related mistakes, so they have no opportunity to hit the production phase. This results in less error-prone code and better performance during execution.
 
-2. **Early spotted bugs** 
+- **Early spotted bugs** 
 
 It gives the code more structure, makes it self-documenting and more readable, speeds up debugging and refactoring.
 
-3. **Predictability** 
+- **Predictability** 
 
 With TypeScript, everything stays the way it was initially defined. If a variable is declared as a string, it will always be a string and won’t turn into a Boolean. This enhances the likelihood of functions working the way initially intended.
 
-4. **Readability and Maintainability** 
+- **Readability and Maintainability** 
 
 Due to adding strict types and other elements that make the code more self-expressive (so-called syntactic sugar), you can see the design intent of developers who originally wrote the code. It’s especially important for distributed teams working on the same project. A code that speaks for itself can offset the lack of direct communication between team members.
 
 
 ### Cons 
 
-1. **Not true static typing** 
+- **Not true static typing** 
 
 TypeScript will eventually transpile into untyped JavsScript, so there is always the risk of weird type conversions at runtime.
 
-2. **One more Language to learn**
+- **One more Language to learn**
 
 As TypeScript is a superset of JavaScript, you have to learn JavaScript in order to code in TypeScript.
 
-3. **Bloated code**
+- **Bloated code**
 
 Due to syntatic suger and type annotations, developers have to write more code which potentially slow down the development process. 
 
-4. **Additional step - transpiling**   
+- **Additional step - transpiling**   
 
 As browsers can't interperet the TypeScript code, it needs to be transpiled to JavaScript before running. However, this step is pretty insignificant. 
 
@@ -157,7 +157,7 @@ TypeScript also has a special syntax for removing null and undefined from a type
 - TypeScript translates enums into JavaScript objects in the final code emitted by the compiler. Because of this, you can use enums to make a codebase more readable, as you can have multiple constant values grouped in the same data structure, while also making the code more type-safe than just having different const variables laying around.
 
 
-#### Resource 
+## Resource 
 1. [TypeScript Docs](https://www.typescriptlang.org/docs/handbook/2/basic-types.html)
 2. [History of the TS](https://medium.com/jspoint/typescript-a-beginners-guide-6956fe8bcf9e)
 3. [TypeScript Pros and Cons](https://www.altexsoft.com/blog/typescript-pros-and-cons/)
