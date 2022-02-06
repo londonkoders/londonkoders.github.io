@@ -7,8 +7,8 @@ nav_order: 10
 
 # TypeScript I
 {: .no_toc }
+Presented on 26th April 2021 by [Jung](https://github.com/junglee1101)
 
-Presented on 26/04/2021 by [Jung](https://github.com/junglee1101)
 ## Table of contents
 {: .no_toc .text-delta }
 

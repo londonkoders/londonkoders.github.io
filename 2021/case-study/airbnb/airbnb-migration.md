@@ -8,7 +8,7 @@ nav_order: 8
 # Airbnb Migration Case Study
 {: .no_toc }
 
-Presented on 6/13/2021 by [Jihyun](https://github.com/jihyun-um)
+Presented on 13th June 2021 by [Jihyun](https://github.com/jihyun-um)
 
 ## Table of contents
 {: .no_toc .text-delta }
