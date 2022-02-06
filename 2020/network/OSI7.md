@@ -5,6 +5,11 @@ parent: 2020
 nav_order: 10
 ---
 
+# OSI7
+{: .no_toc }
+
+Presented on 10/11/2020 by [Taeim](https://github.com/kwontaeim)
+
 ## Section 1 Application Layer Protocols
 ## Topic 1.1:  Application, Presentation, and Session
 
