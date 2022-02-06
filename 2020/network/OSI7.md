@@ -120,3 +120,32 @@ nav_order: 10
 - The DNS protocol communications using a single format called a message.
 - Domain names such as http://www.google.com are user-friendly addresses associated with the IP address of a specific server.
 - However, computers still need the actual numeric address before they can communicate.
+
+### DNS Message Format
+- DNS supports different types of records. Some of these record types are:
+  - A - An end device IPv4 address
+  - NS - An authoritative name server
+  - AAAA - An end device IPv6 address (pronounced quad-A)
+  - MX - A mail exchange record
+- DNS servers will first look at its own records to resolve the name. If the server is unable to resolve the name using its locally stored records, it relays the query to other servers.
+- The response is then forwarded to the requesting client.
+- The DNS Client service on Windows PCs also stores previously resolved names in memory.
+- ipconfig /displaydns displays all of the cached DNS entries on Windows.
+
+### DNS Hierarchy
+- The DNS protocol uses a hierarchical system, with the root at the top and branches below. The naming structure is broken down into small, manageable zones.
+- Each DNS server is only responsible for managing name-to-IP mappings for that small portion of the DNS structure.
+- Requests for zones not stored in a specific DNS server are forwarded to other servers for translation.
+- Top-level domains represent either the type of domain or the country of origin. Examples of top-level domains are:
+  - .com - a business or industry
+  - .org - a non-profit organization
+  - .au - Australia
+  - .co - Colombia
+
+### The nslookup Command
+![image](https://user-images.githubusercontent.com/21251967/152686986-64f767e5-9fcd-4034-882e-668d04c3bd17.png)
+- Allows the user to manually place DNS queries.
+- It can also be used to troubleshoot name resolution issues.
+- Has many options available for extensive testing and verification of the DNS process.
+
+
