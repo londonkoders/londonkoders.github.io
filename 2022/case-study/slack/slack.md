@@ -17,55 +17,68 @@ Presented on 27th Feb 2022 by [Jung](https://github.com/junglee1101)
 {:toc}
 
 ## Slack in 2016
-
+----
 ### Slack Facts 
+
  - 4 million daily active users 
+
  - 2.5 million peak at that time 
+
  - organisations of around 10,000+ users 
 
 ### How Slack works 
 
-![](2016-architecture)
+![Slack Architecture in 2016](2016-architecture)(source: Resource 1)
 
-- Client application made their interactions with the big PHP monolith which is hosted in Amazon's US East Data Centre. The PHP Server is backed by MySQL database tier. 
+- Client application made their interactions with the big PHP monolith which is hosted in Amazon's US East Data Centre. The PHP Server is backed by MySQL database tier.
+
 - There is an asynchronous job queue system where Slack defer activities like unfurling links, or indexing message sfor search would get pushed out to that tier. 
+
 - The real time message stock built in a Java tier where all of the pub/sub distribution of the messaging product happened. 
+
 - Message proxy is outside of US-East data centre, which is responsible for edge terminiationg SSL and proxying that WebSocket connection over the WAN back to US East. 
 
-** SSL Termation: Decrypting encrypted traffic before passing along to a web server. 
+*SSL Termation: Decrypting encrypted traffic before passing along to a web server.*
 
 ### Client / Server Flow 
 
 ![](client-server-flow)
 
 - the client makes this API call rtm.start(real time messaging) to the PHP backend, which would download the entire workspace model.
+
 - So every user, all of their preferences, profiles, avatars, every channel and all the information of the channel get dumped to the client and the client would populate a model and vision of the metadata of the team.
+
 - Also, as part of that initial payload, a URL is also received which the client will then use to connect to a WebSocket to the nearby message proxy that would then go back to the message server.
 
 ### Sharding And Routing 
 
-![](DB-sharding)
-- The backend was scaled out horizontally by straightforward sharding approach
-- One workspace assigns to a particular database shard and a message server shard
-- The first API will look up the metadata row from this Database tier that got called the Mains (the key initial bootstrapping tier) which will respond back with the specific DB and MS shard the client can route to
-- Database and MS shards are managed as a herd of pets - each server is known by a number
+![database-sharding](DB-sharding)(source: Resource 1)
+
+- The backend was scaled out horizontally by straightforward sharding approach.
+
+- One workspace assigns to a particular database shard and a message server shard.
+
+- The first API will look up the metadata row from this Database tier that got called the Mains (the key initial bootstrapping tier) which will respond back with the specific DB and MS shard the client can route to. 
+
+- Database and MS shards are managed as a herd of pets - each server is known by a number.
+
 - Slack has two MySQL hosts running as active/active and master/master replication between them. This means each side was available for writes and they would replicate across them to increase site availability while sacrificing some consistency.
 
 ## Slack in 2018
-
+----
 There is increase in scale for the site and increase of usages which eventually changed the product model to suit the need.
-
-
 
 ### Slack Facts (2018)
 
 - 8 million daily active user for the product (doubled our user base)
+
 - More than 7 million of which are connected at any one time (tripled compare to 2016)
+
 - organisations of more than 125,000 users (10 times increased the size of the largest organisations)
 
 ### Change the Model 
 
-![](products)
+![slack products](products)(source: Resource 1)
 
 - Introduction of the enterprise product of Slack
    - Enterprise can have separate Slack workspaces for each subdivision or geolocation
@@ -81,18 +94,27 @@ There is increase in scale for the site and increase of usages which eventually 
 There are 3 main changes that Slack implemented to cope with the increased number of users and new features to adapt clients' need. 
 
 ### Thin Client Model 
-- Introduced a caching service called **Flannel** that allowed to slim down the initial boot payload
+
+- Introduced a caching service called **Flannel** that allowed to slim down the initial boot payload.
+
 - with the 2016 model, if an organisation has more than 100,000 users, each user will have to download ~100MB every time they log into their slack workspace.
+
 - Flannel is deployed nearer to the client, so it connects the WebSocket to a nearby Flannel Cache which proxies the connection to the message proxy and then to that route pub/sub message server.
+
 - Flannel acts as a man in the middle between the backend and front end so it has the in-memory model of all the users, which can inject the metadata in line to the websocket stream if the client doesn't have a user ID or a channel ID.
 
 ### Vitess
 
 - In order to spread the load out more efficiently, Slack started to use the database technology called **Vitess**.
+
 - **Vitess** runs MySQL at the core and so it is a sharding and topology management solution that sits on top of MySQL.
+
 - In **Vitesss**, the application is connected to a routing tier called VtGate where it acts as a routing server as it knows which set of backend servers are hosting those tables and it knows which column a given table is sharded by.
+
 - The Database would be sharded by the user ID, channel ID and workspace ID. Thus, all of that knowledge is no longer in our PHP code.
+
 - **VtGate** is responsible for disseminating and doing all of the routing. it can also scatter and gather requests from multiple shards. 
+
 - In **Vitess**, we have a single writable master and we reploy on orchestrator which manage the fail. 
 
 ### Message Server to Services 
@@ -111,7 +133,7 @@ There are 3 main changes that Slack implemented to cope with the increased numbe
  
 - Legacy system is still around to support reminders and google calendar integration.
 
-![2018-architecture](2018-architecture)
+![2018-architecture](2018-architecture)(source: Resource 1)
 
 ## Resources 
 1. [Scaling Slack](https://www.infoq.com/presentations/slack-scalability-2018/)
