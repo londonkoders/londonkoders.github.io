@@ -28,7 +28,7 @@ Presented on 27th Feb 2022 by [Jung](https://github.com/junglee1101)
 
 ### How Slack works 
 
-![Slack Architecture in 2016](2016-architecture)(source: Resource 1)
+![Slack Architecture in 2016](2016-architecture.png)(source: Resource 1)
 
 - Client application made their interactions with the big PHP monolith which is hosted in Amazon's US East Data Centre. The PHP Server is backed by MySQL database tier.
 
@@ -52,7 +52,7 @@ Presented on 27th Feb 2022 by [Jung](https://github.com/junglee1101)
 
 ### Sharding And Routing 
 
-![database-sharding](DB-sharding)(source: Resource 1)
+![database-sharding](DB-sharding.png)(source: Resource 1)
 
 - The backend was scaled out horizontally by straightforward sharding approach.
 
@@ -78,7 +78,7 @@ There is increase in scale for the site and increase of usages which eventually 
 
 ### Change the Model 
 
-![slack products](products)(source: Resource 1)
+![slack products](products.png)(source: Resource 1)
 
 - Introduction of the enterprise product of Slack
    - Enterprise can have separate Slack workspaces for each subdivision or geolocation
@@ -133,7 +133,7 @@ There are 3 main changes that Slack implemented to cope with the increased numbe
  
 - Legacy system is still around to support reminders and google calendar integration.
 
-![2018-architecture](2018-architecture)(source: Resource 1)
+![2018-architecture](2018-architecture.png)(source: Resource 1)
 
 ## Resources 
 1. [Scaling Slack](https://www.infoq.com/presentations/slack-scalability-2018/)
