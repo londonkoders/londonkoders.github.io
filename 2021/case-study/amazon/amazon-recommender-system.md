@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Google Search Case Study
+title: Amazon Recommender System Case Study
 parent: 2021
 nav_order: 21
 ---
