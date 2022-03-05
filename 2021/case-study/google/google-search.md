@@ -117,6 +117,6 @@ There are many ways to improve how Google serves the content of your page:
 - [Implement AMP](https://developers.google.com/search/docs/advanced/experience/about-amp) for faster loading pages on mobile devices. Some AMP pages are also eligible for additional search features, such as the top stories carousel.
 - Google's algorithm is constantly being improved; rather than trying to guess the algorithm and design your page for that, work on creating good, fresh content that users want, and following our guidelines.
 
-**Resources:**
-- https://developers.google.com/search/docs/advanced/guidelines/how-search-works
-- https://www.google.com/search/howsearchworks/algorithms
+## Resources
+- [Google Search Central: How Search Works](https://developers.google.com/search/docs/advanced/guidelines/how-search-works)
+- [Search Algorithms](https://www.google.com/search/howsearchworks/algorithms)
