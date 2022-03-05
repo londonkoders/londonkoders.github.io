@@ -49,7 +49,7 @@ has_toc: false
 - Kwitter Project Implementation
 
 ### 10/02/2021
-- Distributed Data Store - SQL and NoSQL by [Heath](https://github.com/heathryu)
+- [Distributed Data Store, SQL](distributed-data-store/distributed-data-store.md) and NoSQL by [Heath](https://github.com/heathryu)
 - Kwitter Project Implementation
 
 ### 10/31/2021
