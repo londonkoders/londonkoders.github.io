@@ -53,7 +53,7 @@ has_toc: false
 - Kwitter Project Implementation
 
 ### 10/31/2021
-- Amazon Recommeder System Case Study by [Jihyun](https://github.com/jihyun-um)
+- [Amazon Recommeder System Case Study](case-study/amazon/amazon-recommender-system.md) by [Jihyun](https://github.com/jihyun-um)
 - Kwitter Project Implementation
 
 ### 11/20/2021
