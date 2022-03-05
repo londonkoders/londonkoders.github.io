@@ -44,8 +44,7 @@ has_toc: false
 - TypeScript Part IV by [Taeim](https://github.com/kwontaeim)
 
 ### 07/26/2020
-- Functional Programming
-and Testable Code by [Heath](https://github.com/heathryu)
+- [Functional Programming and Testable Code](FunctionalProgramming/functional-programming.md) by [Heath](https://github.com/heathryu)
 - Networking by [Jung](https://github.com/junglee1101)
 
 ### 08/09/2020
