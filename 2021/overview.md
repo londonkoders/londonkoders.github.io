@@ -9,7 +9,7 @@ has_toc: false
 # 2021
 
 ### 01/24/2021
-- Cookie, Session, and Local Storage by [Taeim](https://github.com/kwontaeim)
+- [Cookie, Session, and Local Storage](Client-side-storage/cookie-session-local-storage.md) by [Taeim](https://github.com/kwontaeim)
 - SQL Queries Part I by [Jihyun](https://github.com/jihyun-um)
 
 ### 02/28/2021
