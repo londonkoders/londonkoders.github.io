@@ -19,7 +19,7 @@ Presented on 26th July 2020 by [Jung](https://github.com/junglee1101)
 ----
 A **network** is a collection of computers, servers, mainframes, network devices, peripherals, or other devices connected to allow data sharing. An example of a network is the Internet, which connects millions of people all over the world. Internet stands for International Network. 
 
-## Type of Network = LAN, WAN, MAN, WLAN and PAN
+## Type of Network - LAN, WAN, MAN, WLAN and PAN
 ----
 
 | LAN (Local Area)                                                    | WAN (Wide Area)                                             |
@@ -33,7 +33,8 @@ A **network** is a collection of computers, servers, mainframes, network devices
 
 This below diagram shows how WAN cable is connected globally under the sea. 
 
-![WAN cable](Images/WAN_cable.png)(src: Resource(1))
+![WAN cable](Images/WAN_cable.png)
+*(src: Resource(1))*
 
 
 | MAN(Metropolitan Area)                                      | WLAN(Wireless Local Area)      |
@@ -60,7 +61,8 @@ This below diagram shows how WAN cable is connected globally under the sea.
 
 ### Bus Topology
 
-![Bus Topology](Images/bus.jpeg)(src: Resource(2))
+![Bus Topology](Images/bus.jpeg)
+*(src: Resource(2))*
 
 The bus topology is an older topology. All devices are connected together using a single cable, which is call a trunk, backbone, or segment. Compute are connected to the bus cable by drop line and taps. A drop line is a connection running between the device and the main cable. That Backbone cable has terminator on both side for prevent signal loss.
 
@@ -72,7 +74,8 @@ However, it is difficult to know the problem if the network goes down and when i
  
 ### Mesh Topology
 
-![Mesh Topology](Images/mesh.jpeg)(src: Resource(2))
+![Mesh Topology](Images/mesh.jpeg)
+*(src: Resource(2))*
 
 Mesh topology link multiple network between computer to provide multile paths for data to travel. 
 
@@ -82,7 +85,9 @@ As Mesh topology uses more cable, it is very expensive. Moreover, it is harder t
 
 ### Ring Topology
 
-![Ring Topology](Images/single-ring.jpeg)(src: Resource(2))
+![Ring Topology](Images/single-ring.jpeg)
+
+*(src: Resource(2))*
 
 In a ring network, every device has exactly two neighbours for communication purposes. All messages travel through a ring in the same direction. 
 
@@ -90,7 +95,9 @@ The advantage of ring topology is that data degeneration is very low. however, i
 
 ### Star Topology
 
-![Star Topology](Images/star.jpeg)(src: Resource(2))
+![Star Topology](Images/star.jpeg)
+
+*(src: Resource(2))*
 
 Each device has a dedicated point-to-point link to a central controller device, usually knoen as a switch or hub. When a computer sends data to other computers on the network, it is sent along the cable to the bub or switch, which can then pass the packets to the computer or devices connected to it.
 
@@ -107,7 +114,8 @@ network.
 TCP/IP stands for **Transmission Control Protocol/ Internet Protocol**. It is a communication protocol that allows for connections of hosts to the internet. It is specifically designed as a model to offer highly reliable and end-to-end byte stream over an unreliable internetwork.
 
 
-![OSI Model](Images/osi-model.png)(src: Resource(3))
+![TCP/IP vs OSI Model](Images/TCP-IP-model-vs-OSI-model.png)
+*(src: Resource(3))*
 
 The OSI Model is a logical and conceptual model that defines network communication used by systems open to interconnection and communication with other systems. The **Open System Interconnection** (OSI Model) also defines a logical network and effectively describes computer packet transfer by using various layers of protocols.
 
@@ -121,7 +129,9 @@ The OSI Model is a logical and conceptual model that defines network communicati
 - Protocol information can be added before and after the data. If the information is added before the data, it is known as a **header**. If the information is added after the data, it is known as a **trailer**.
 
 
-![Data Encapsulation & Decapsulation](Images/encapsulation.png)(src: Resource(4))
+![Data Encapsulation & Decapsulation](Images/encapsulation.png)
+
+*(src: Resource(4))*
 
 - The header and trailer added by a layer on the sending computer can only be removed by **the peer layer on the receiving computer**. 
 
@@ -131,12 +141,14 @@ The OSI Model is a logical and conceptual model that defines network communicati
 
 - The below table shows the terms/units used by the layers in both models to represent the encapsulated data.
 
-![Encapsulated data terms](Images/encapsulated_data_term.png)(src: Resource(4))
+![Encapsulated data terms](Images/encapsulated_data_term.png)
+*(src: Resource(4))*
 
 
 The below diagram shows how data is encapsulated and decapsulated in the TCP/IP model.
 
-![TCP/IP Encapsulation](Images/tcp-ip-encapsulation.png)(src: Resource(4))
+![TCP/IP Encapsulation](Images/tcp-ip-encapsulation.png)
+*(src: Resource(4))*
 
 
 ### Eternet (layer 2)
@@ -158,5 +170,5 @@ The below diagram shows how data is encapsulated and decapsulated in the TCP/IP 
 ## Resources 
 1. [WAN cable](https://www.submarinecablemap.com/)
 2. [Network Topologies](https://utechnoworld.com/what-is-bus-topology-in-network-topology/)
-3. [OSI Model](https://community.fs.com/blog/tcpip-vs-osi-whats-the-difference-between-the-two-models.html)
+3. [TCP/IP vs OSI Model](https://fiberbit.com.tw/tcpip-model-vs-osi-model/)
 4. [Data Encapsulation](https://www.computernetworkingnotes.com/ccna-study-guide/data-encapsulation-and-de-encapsulation-explained.html)
