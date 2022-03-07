@@ -117,6 +117,7 @@ TCP/IP stands for **Transmission Control Protocol/ Internet Protocol**. It is a 
 
 ![TCP/IP vs OSI Model](Images/TCP-IP-model-vs-OSI-model.png)
 
+
 *(src: Resource(3))*
 
 The OSI Model is a logical and conceptual model that defines network communication used by systems open to interconnection and communication with other systems. The **Open System Interconnection** (OSI Model) also defines a logical network and effectively describes computer packet transfer by using various layers of protocols.
@@ -173,5 +174,5 @@ The below diagram shows how data is encapsulated and decapsulated in the TCP/IP 
 ## Resources 
 1. [WAN cable](https://www.submarinecablemap.com/)
 2. [Network Topologies](https://utechnoworld.com/what-is-bus-topology-in-network-topology/)
-3. [OSI Model](https://community.fs.com/blog/tcpip-vs-osi-whats-the-difference-between-the-two-models.html)
+3. [TCP/IP vs OSI Model](https://fiberbit.com.tw/tcpip-model-vs-osi-model/)
 4. [Data Encapsulation](https://www.computernetworkingnotes.com/ccna-study-guide/data-encapsulation-and-de-encapsulation-explained.html)
