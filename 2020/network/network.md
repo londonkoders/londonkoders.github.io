@@ -86,6 +86,8 @@ As Mesh topology uses more cable, it is very expensive. Moreover, it is harder t
 ### Ring Topology
 
 ![Ring Topology](Images/single-ring.jpeg)
+
+
 *(src: Resource(2))*
 
 In a ring network, every device has exactly two neighbours for communication purposes. All messages travel through a ring in the same direction. 
@@ -95,6 +97,8 @@ The advantage of ring topology is that data degeneration is very low. however, i
 ### Star Topology
 
 ![Star Topology](Images/star.jpeg)
+
+
 *(src: Resource(2))*
 
 Each device has a dedicated point-to-point link to a central controller device, usually knoen as a switch or hub. When a computer sends data to other computers on the network, it is sent along the cable to the bub or switch, which can then pass the packets to the computer or devices connected to it.
@@ -128,6 +132,8 @@ The OSI Model is a logical and conceptual model that defines network communicati
 
 
 ![Data Encapsulation & Decapsulation](Images/encapsulation.png)
+
+
 *(src: Resource(4))*
 
 - The header and trailer added by a layer on the sending computer can only be removed by **the peer layer on the receiving computer**. 
