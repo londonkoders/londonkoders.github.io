@@ -115,8 +115,8 @@ network.
 
 TCP/IP stands for **Transmission Control Protocol/ Internet Protocol**. It is a communication protocol that allows for connections of hosts to the internet. It is specifically designed as a model to offer highly reliable and end-to-end byte stream over an unreliable internetwork.
 
+![TCP/IP vs OSI Model](Images/TCP-IP-model-vs-OSI-model.png)
 
-![OSI Model](Images/osi-model.png)
 *(src: Resource(3))*
 
 The OSI Model is a logical and conceptual model that defines network communication used by systems open to interconnection and communication with other systems. The **Open System Interconnection** (OSI Model) also defines a logical network and effectively describes computer packet transfer by using various layers of protocols.
