@@ -2,7 +2,7 @@
 layout: default
 title: OSI 7
 parent: 2020
-nav_order: 10
+nav_order: 25
 ---
 
 # OSI7
