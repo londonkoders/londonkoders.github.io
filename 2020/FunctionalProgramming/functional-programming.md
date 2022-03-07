@@ -2,7 +2,7 @@
 layout: default
 title: Functional Programming and Testable Code
 parent: 2020
-nav_order: 8
+nav_order: 19
 ---
 
 # Functional Programming and Testable Code
