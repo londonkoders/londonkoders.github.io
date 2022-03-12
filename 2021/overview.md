@@ -9,7 +9,7 @@ has_toc: false
 # 2021
 
 ### 01/24/2021
-- [Cookie, Session, and Local Storage](Client-side-storage/cookie-session-local-storage.md) by [Taeim](https://github.com/kwontaeim)
+- [Cookie, Session, and Local Storage](client-side-storage/cookie-session-local-storage.md) by [Taeim](https://github.com/kwontaeim)
 - SQL Queries Part I by [Jihyun](https://github.com/jihyun-um)
 
 ### 02/28/2021
@@ -17,7 +17,7 @@ has_toc: false
 - SQL Queries Part II by [Heath](https://github.com/heathryu)
 
 ### 03/21/2021
-- Web Accessibility by [Jihyun](https://github.com/jihyun-um)
+- [Web Accessibility](web-accessibility/web-accessibility.md) by [Jihyun](https://github.com/jihyun-um)
 - Docker Part I by [Taeim](https://github.com/kwontaeim)
 
 ### 04/11/2021
