@@ -5,7 +5,7 @@ parent: 2021
 nav_order: 5
 ---
 
-# Amazon Recommender System Case Study
+# Web Accessibility
 {: .no_toc }
 Presented on 23rd March 2021 by [Jihyun](https://github.com/jihyun-um)
 
