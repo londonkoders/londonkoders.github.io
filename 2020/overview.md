@@ -21,7 +21,7 @@ has_toc: false
 - Redux Part II by [Taeim](https://github.com/kwontaeim)
 
 ### 03/28/2020
-- Automated Testing by [Heath](https://github.com/heathryu)
+- [Automated Testing](AutomatedTesting/automated-testing.md) by [Heath](https://github.com/heathryu)
 - React useContext by [Taeim](https://github.com/kwontaeim)
 
 ### 04/26/2020
