@@ -20,3 +20,7 @@ has_toc: false
 
 - [Slack Architecture Case Study](case-study/slack/slack.md) by [Jung](https://github.com/junglee1101)
 - Kwitter Project Implementation
+
+### 03/26/2022
+- [Monzo's Banking Platform Architecture Case Study](case-study/monzo/monzo.md) by [Heath](https://github.com/heathryu)
+- Kwitter Project Implementation
