@@ -48,7 +48,7 @@ has_toc: false
 - [Networking](network/network.md) by [Jung](https://github.com/junglee1101)
 
 ### 08/09/2020
-- Content Security Policy by [Taeim](https://github.com/kwontaeim)
+- [Content Security Policy](ContentSecurityPolicy/content-security-policy.md) by [Taeim](https://github.com/kwontaeim)
 - Mac and IP Addresses by [Jihyun](https://github.com/jihyun-um)
 
 ### 08/23/2020
