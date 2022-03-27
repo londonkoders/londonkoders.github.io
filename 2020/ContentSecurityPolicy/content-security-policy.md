@@ -76,8 +76,31 @@ Presented on 8th September 2020 by [Taeim](https://github.com/kwontaeim)
 
 And so much more -> content-security-policy.com
 
+## Examples
+
+#### Example 1
+Wants all content to come from the site's own origin (this excludes subdomains.)   
+`Content-Security-Policy: default-src 'self'`
+
+#### Example 2
+Wants to allow content from a trusted domain and all its subdomains (it doesn't have to be the same domain that the CSP is set on.)   
+`Content-Security-Policy: default-src 'self' *.trusted.com`
+
+#### Example 3
+wants to allow users of a web application to include images from any origin in their own content, but to restrict audio or video media to trusted providers, and all scripts only to a specific server that hosts trusted code.    
+`Content-Security-Policy: default-src 'self'; img-src *; media-src media1.com media2.com; script-src userscripts.example.com`
+
+#### Example 4
+A web site administrator of a web mail site wants to allow HTML in email, as well as images loaded from anywhere, but not JavaScript or other potentially dangerous content.    
+`Content-Security-Policy: default-src 'self' *.mailsite.com; img-src *`
 
 
-
-
+## Links & futher reading
+https://www.w3.org/TR/CSP3   
+https://csp.withgoogle.com/docs/index.html   
+https://scotthelme.co.uk/csp-cheat-sheet   
+https://observatory.mozilla.org     
+https://infosec.mozilla.org/guidelines/web_security#content-security-policy
+https://csp-evaluator.withgoogle.com      
+https://hacks.mozilla.org/2016/02/implementing-content-security-policy     
 
