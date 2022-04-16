@@ -31,3 +31,6 @@ has_toc: false
 ### 04/09/2022
 
 <img src="https://raw.githubusercontent.com/londonkoders/londonkoders.github.io/main/2022/session-photos/session-20220409.png" width="200px"/>
+
+- [Netflix Play API Case Study](case-study/netflix/netflix-play-api.md) by [Jihyun](https://github.com/jihyun-um)
+- Kwitter Project Implementation
