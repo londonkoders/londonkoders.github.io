@@ -2,7 +2,7 @@
 layout: default
 title: Monzo Banking Architecture Case Study
 parent: 2022
-nav_order: 3
+nav_order: 2
 ---
 
 At the early stage of Monzo, the engineering team of Monzo focused on building a robust banking platform that is extensible, scalable, resillient and secure. They wanted to avoid the traditional approach of building something that meets the initial level of load for a product and later going through a massive re-platforming process to handle the now grown and bigger user base later in the product lifecycle.
