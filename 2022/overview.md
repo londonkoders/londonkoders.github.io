@@ -22,5 +22,12 @@ has_toc: false
 - Kwitter Project Implementation
 
 ### 03/26/2022
+
+<img src="https://raw.githubusercontent.com/londonkoders/londonkoders.github.io/main/2022/session-photos/session-20220326.png" width="200px"/>
+
 - [Monzo's Banking Platform Architecture Case Study](case-study/monzo/monzo.md) by [Heath](https://github.com/heathryu)
 - Kwitter Project Implementation
+
+### 04/09/2022
+
+<img src="https://raw.githubusercontent.com/londonkoders/londonkoders.github.io/main/2022/session-photos/session-20220409.png" width="200px"/>
