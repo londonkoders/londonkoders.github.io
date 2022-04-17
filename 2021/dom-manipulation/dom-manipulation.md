@@ -76,7 +76,7 @@ now we have the element refernce, we can manipulate it using properties and meth
 
 `Document.querySelector()` is the recommended modern way of selecting elements using CSS selectors. `querySelector()` returns the first `Element` within the document that matches the specified selector. If no matches are found, `null` is returned. CSS Selectors select HTML elements based on *id*, *classes*, *types*, *attributes*, *values of attributes* etc. If you want to match multiple elements, you can use `Document.querySelectorAll()` which matches every element that matches the selector. This will store references in an array-like object called a `NodeList`. 
 
-`Document.getElementById()` and `Document.getElementsbyTagName()` are older moethods for selecting elements but these works better in older browsers. 
+`Document.getElementById()` and `Document.getElementsbyTagName()` are older methods for selecting elements but these works better in older browsers. 
 
 ## Creating and placing new nodes 
 

@@ -13,7 +13,7 @@ has_toc: false
 - SQL Queries Part I by [Jihyun](https://github.com/jihyun-um)
 
 ### 02/28/2021
-- DOM Manipulation by [Jung](https://github.com/junglee1101)
+- [DOM Manipulation](dom-manipulation/dom-manipulation.md) by [Jung](https://github.com/junglee1101)
 - SQL Queries Part II by [Heath](https://github.com/heathryu)
 
 ### 03/21/2021
