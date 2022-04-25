@@ -13,7 +13,7 @@ nav_order: 4
 - Docker Part I by [Heath](https://github.com/heathryu)
 
 ### 07/13/2019
-- DNS Basics by [Taeim](https://github.com/kwontaeim)
+- [DNS Basics](dns-basic/dns-basics.md) by [Taeim](https://github.com/kwontaeim)
 
 ### 07/20/2019
 - Docker Part II & GraphQL by [Heath](https://github.com/heathryu)
