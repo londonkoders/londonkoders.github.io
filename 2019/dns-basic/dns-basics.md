@@ -40,9 +40,9 @@ Let’s look at a typical domain name.
 - `example` is the Second Level Domain
 - `www` is the Third Level Domain
 - Each Top Level Domain (TLD) is managed by a specific organization called a Registry Operator under contract with ICANN.
-- Top Level Domains (TLDs) are divided into two types􏰀
-  ○ the generic Top Level Domains (gTLDs) (e.g .com and .org)
-  ○ the country code Top Level Domains (ccTLDs) (e.g .uk for United Kingdom and .us for the United States).
+- Top Level Domains (TLDs) are divided into two types
+    - the generic Top Level Domains (gTLDs) (e.g .com and .org)
+    - the country code Top Level Domains (ccTLDs) (e.g .uk for United Kingdom and .us for the United States).
 - The second level domain is the part that you register which is used to provide online systems such as websites and emails.
 - Domains are sold by a large number of registrars and resellers who do so under contract with registrars.
 
@@ -58,8 +58,10 @@ What happens when I type `www.example.com` in my browser?
 -  The DNS server queries the “root servers” for the information. N.B. The root zone only knows information about the zones they are responsible for which is the Top Level Domains (TLDs). There are 13 root servers which have copies distributed around the world.
 -  The root server will refer the DNS server to the `.com` TLD nameservers . The TLD Name servers knows information of all second level domains under their zone.
 -  The Top Level Domain Name servers will refer us to the DNS servers responsible for `example.com`
--  The DNS servers authoritative for example.com will give us the IP address for www.example.com” and the web resource is displayed.
+-  The DNS servers authoritative for example.com will give us the IP address for `www.example.com` and the web resource is displayed.
 -  Every time a DNS query is made, the root servers are the first servers to be contacted. However, there is no need to contact the root servers every time a query is made since results can be obtained from the DNS cache which stores information for recent previous queries. If the DNS server do not find the results in the cached copies it asks a series of servers through a process called recursion until it reaches the authoritative name servers for that domain.
+
+<img width="820" alt="image" src="https://user-images.githubusercontent.com/21251967/165160864-9fc832af-b501-44e6-95d1-0359209075a1.png">
 
 ##  Who makes this DNS System work?
 
@@ -70,24 +72,22 @@ What happens when I type `www.example.com` in my browser?
 - Managing (through PTI) the distribution and allocation of IP address “blocks” to the RIRs.
  Therefore, ICANN oversees the assignment of both IP addresses and domain names.
 
-### ICANN is guided by the following principles
+### ICANN is guided by the following principles:
 - To preserve the operational stability and security of the Internet, particularly the domain name system.
-- To promote competition and choice for registrants, especially in the generic top-level domain arena􏰀
-- To achieve broad representation of global Internet communities􏰀
+- To promote competition and choice for registrants, especially in the generic top-level domain arena.
+- To achieve broad representation of global Internet communities.
 - And, to develop policy appropriate to its mission through bottom up, consensus-based processes.
-### ICANN’s mandate is to act in the public interest on issues regarding the management of the DNS system.
-
+ICANN’s mandate is to act in the public interest on issues regarding the management of the DNS system.
 
 ### The ICANN Community
+ICANN is made up of different communities, representing different interests on the Internet and all contribute to any final decisions that ICANN makes.
 
-### ICANN is made up of different communities , representing different interests on the Internet and all contribute to any final decisions that ICANN makes.
-
-### There are three “supporting organisations” that represent
+There are three “supporting organisations” that represent
 - The organisations that deal with IP addresses
 - The organisations that deal with domain names
 - The managers of country code top-level domains
 
-### Then there are four “advisory committees” that provide ICANN with advice and recommendations. These represent􏰁
+Then there are four “advisory committees” that provide ICANN with advice and recommendations. These represent
 - Governments and international treaty organisations
 - Root server operators
 - Those concerned with the Internet’s security
