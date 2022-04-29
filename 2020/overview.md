@@ -61,5 +61,5 @@ has_toc: false
 
 ### 11/08/2020
 - Introduction to Database by [Jung](https://github.com/junglee1101)
-- React HOC & Render Props by [Heath](https://github.com/heathryu)
+- [React HOC & Render Props](react-hoc-and-render-props/react-hoc-and-render-props.md) by [Heath](https://github.com/heathryu)
    
