@@ -69,14 +69,14 @@ ENTRYPOINT sets a default application to be used every time a container is creat
 
 - Volumes are completely handled by Docker which gives several advantages over `bind mounts` as stated below. 
 
-- Storage is not coupled to the lifecycle of the container but instead exists outside of it. 
-- Easier to back up or migrate.
-- Can manage volumes by Docker CLI commands or the Docker API. 
-- Can be more safe to share among multiple containers. 
-- Volume drivers allow you to store on remote hosts or cloud providers. 
-- New volumes can have their content pre-populated by a container. 
-- Easy to attach to multiple running containers at the same time. 
-- The volumes don't increase the size of the Docker container using them. 
+    - Storage is not coupled to the lifecycle of the container but instead exists outside of it. 
+    - Easier to back up or migrate.
+    - Can manage volumes by Docker CLI commands or the Docker API. 
+    - Can be more safe to share among multiple containers. 
+    - Volume drivers allow you to store on remote hosts or cloud providers. 
+    - New volumes can have their content pre-populated by a container. 
+    - Easy to attach to multiple running containers at the same time. 
+    - The volumes don't increase the size of the Docker container using them. 
 
 
 ## Container Network
@@ -87,12 +87,12 @@ ENTRYPOINT sets a default application to be used every time a container is creat
 
 - Docker's networking subsystem is pluggable using drivers. These are the drivers that exist by default. 
 
-`bridge`: The default network driver. It is usually used when an application run in standalone container that need to communicate.
-`host`: For standalone containers, remove network isolation between the container and the Docker host, and use the host's networking directly.
-`overlay`: connects multiple Docker daemons together and enable swarm services to communicate with each other. 
-`ipvlan`: This drivker gives total control over both IPv4 and IPv6 addressing. 
-`macvlan`: allow to assign a MAC address to a container, making it appear as a physical device on your network. 
-`none`: This disables all networking. 
+- `bridge`: The default network driver. It is usually used when an application run in standalone container that need to communicate.
+- `host`: For standalone containers, remove network isolation between the container and the Docker host, and use the host's networking directly.
+- `overlay`: connects multiple Docker daemons together and enable swarm services to communicate with each other. 
+- `ipvlan`: This drivker gives total control over both IPv4 and IPv6 addressing. 
+- `macvlan`: allow to assign a MAC address to a container, making it appear as a physical device on your network. 
+- `none`: This disables all networking. 
 
 ## Docker Compose
 
