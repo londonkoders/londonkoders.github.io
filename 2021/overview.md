@@ -22,7 +22,7 @@ has_toc: false
 
 ### 04/11/2021
 - Github action workflow by [Heath](https://github.com/heathryu)
-- Docker Part II by [Jung](https://github.com/junglee1101)
+- [Docker Part II](docker-2/docker-2.md) by [Jung](https://github.com/junglee1101)
 
 ### 05/03/2021
 - Machine Learning by [Taeim](https://github.com/kwontaeim)
