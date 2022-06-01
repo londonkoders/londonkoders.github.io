@@ -127,7 +127,7 @@ Presented on 2nd June 2022 by [Jihyun](https://github.com/jihyun-um)
     2. If User B is offline, a push notification is sent from the PN servers.
 6. Chat server 2 forwards the message to User B through a persistent WebSocket connection between User B and Chat server 2. 
 
-****Small group chat flow****
+**Small group chat flow**
 
 ![group-chat-flow.png](group-chat-flow.png)
 
@@ -137,7 +137,7 @@ Presented on 2nd June 2022 by [Jihyun](https://github.com/jihyun-um)
 
 You can think of the message sync queue as an inbox for a recipient. It simplifies message sync flow as each client only needs to check its own inbox to get new messages. When the group number is small, storing copy in each recipient’s inbox is not too expensive. However, for groups with a lot of users, storing a message copy for each member is not acceptable.
 
-****Message synchronization across multiple devices****
+**Message synchronization across multiple devices**
 
 ![message-synchronization.png](message-synchronization.png)
 
