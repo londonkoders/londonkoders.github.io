@@ -32,7 +32,7 @@ has_toc: false
 - Asynchronous Programming in JavaScript by [Heath](https://github.com/heathryu)
 
 ### 05/23/2020
-- HTTPS by [Taeim](https://github.com/kwontaeim)
+- [HTTPS](network/https.md) by [Taeim](https://github.com/kwontaeim)
 - TypeScript Part II by [Jihyun](https://github.com/jihyun-um)
 
 ### 06/27/2020
